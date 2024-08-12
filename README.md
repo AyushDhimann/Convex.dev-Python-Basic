@@ -19,6 +19,6 @@ Convex is a serverless reactive backend-as-a-service that simplifies state manag
 
 You may check the results in the Convex Dashboard to see the state changes in real-time.
 
-- Credits
+## Credits
 
 This repository is inspired by this convex [repo](https://github.com/get-convex/convex-demos/tree/main) made by the official [Convex team](https://github.com/get-convex).
