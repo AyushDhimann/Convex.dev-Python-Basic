@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convex Chat</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main>
+        <h1>Convex Chat</h1>
+        <ul id="message-list">
+            {% for message in messages %}
+                <li key="{{ message._id }}">
+                    <span class="author">{{ message.author }}:</span>
+                    <span class="body">{{ message.body }}</span>
+                    <span class="time">{{ message._creationTime }}</span>
+                </li>
+            {% endfor %}
+        </ul>
+        <form action="{{ url_for('send_message') }}" method="post">
+            <input
+                name="body"
+                placeholder="Write a message…"
+                required
+            />
+            <input type="submit" value="Send" />
+        </form>
+    </main>
+</body>
+</html>
