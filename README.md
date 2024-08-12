@@ -6,7 +6,7 @@ Convex is a serverless reactive backend-as-a-service that simplifies state manag
 
  This repository demonstrates a basic installation and usage of Convex with Python scripts, providing straightforward examples to help you get started. Since Convex can be challenging for developers transitioning from other tech stacks, this repository aims to facilitate a smooth introduction to using Convex with Python.
 
-## Installation
+# Installation
 
 1. Clone this repository.
 2. Run ```npm init -y``` to create a package.json file.
@@ -19,6 +19,6 @@ Convex is a serverless reactive backend-as-a-service that simplifies state manag
 
 You may check the results in the Convex Dashboard to see the state changes in real-time.
 
-## Credits
+# Credits
 
 This repository is inspired by this convex [repo](https://github.com/get-convex/convex-demos/tree/main) made by the official [Convex team](https://github.com/get-convex).
