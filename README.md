@@ -1,12 +1,12 @@
-- About Convex
+# About Convex
 
 Convex is a serverless reactive backend-as-a-service that simplifies state management and syncing across users with automatic real-time updates, caching, and scaling, all through JavaScript or TypeScript functions.
 
-- About this Repo
+# About this Repo
 
  This repository demonstrates a basic installation and usage of Convex with Python scripts, providing straightforward examples to help you get started. Since Convex can be challenging for developers transitioning from other tech stacks, this repository aims to facilitate a smooth introduction to using Convex with Python.
 
-- Installation
+## Installation
 
 1. Clone this repository.
 2. Run ```npm init -y``` to create a package.json file.
